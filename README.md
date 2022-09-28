@@ -14,7 +14,7 @@ Security Weakness Diagnostic Tool for Secure Smart Contract.pdf
 
 ## Requirements
 * Windows
-* solidity compiler v0.4.26
+* solidity compiler 0.4.26
 
 ## Run
 * haechi.bat [filename]
