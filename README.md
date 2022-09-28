@@ -1,7 +1,9 @@
 # SmartContract Security Diagnostic Tool
 
 HAECHI automatically checks Smart Contracts for vulnerabilities and bad practices - it gives a detailed explanation of the problem.   
-We already use it in our security audits.
+We already use it in our security audits.   
+
+![image](https://github.com/byunghyun23/haechi/blob/master/haechi.png)
 
 ## Documents
 * You can check the Korean version of the Solidity Secure Coding Guide and papers in the documnet directory.
