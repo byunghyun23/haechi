@@ -17,10 +17,20 @@ Security Weakness Diagnostic Tool for Secure Smart Contract.pdf
 * Linux
 * solidity compiler 0.4.25 or 0.4.26
 
+## Install (Only Linux)
+* sudo snap install docker
+* sudo docker pull ethereum/solc:0.4.25
+
+## Run (Linux)
+* ./haechi.sh [filename]
+
+## Example (Linux)
+* ./haechi.sh DoSAttack.sol
+
 ## Run (Windows)
 * haechi.bat [filename]
 
-## Example
+## Example (Windows)
 * haechi.bat solidity_examples/DoSAttack.sol
 ```
 ********** RULECHECK RESULTS **********   
