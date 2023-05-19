@@ -13,8 +13,7 @@ Security Weakness Diagnostic Tool for Secure Smart Contract.pdf
 ```
 
 ## Requirements
-* Windows
-* Linux
+* Windows or Linux
 * solidity compiler 0.4.25 or 0.4.26
 
 ## Install (Only Linux)
