@@ -9,16 +9,30 @@ public class Scanner {
 	String json;
 
 	public String createJson(String inputFile) {
-		String astFile = inputFile + ".ast";
+		String astFile = inputFile + ".ast";	// Windows
 		
+		Path path = null;
 		byte[] byteData;
+		
 		try {
-			Path path = Paths.get(astFile);
+			path = Paths.get(astFile);
 			byteData = Files.readAllBytes(path);
+			
 			json = new String(byteData);
 			json = json.substring(json.indexOf("{"));
 		} catch (IOException e) {
-			e.printStackTrace();
+			System.out.println("Processing in Linux..");
+			
+			astFile = inputFile + "_json.ast";	// Linux
+			
+			try {
+				path = Paths.get(astFile);
+				byteData = Files.readAllBytes(path);
+				
+				json = new String(byteData);
+			} catch (IOException ie) {
+				ie.printStackTrace();
+			}
 		}
         
 		return json;

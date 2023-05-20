@@ -21,6 +21,7 @@ Security Weakness Diagnostic Tool for Secure Smart Contract.pdf
 * sudo docker pull ethereum/solc:0.4.25
 
 ## Run (Linux)
+* The .sol file must exist in solidity_examples.
 * ./haechi.sh [filename]
 
 ## Example (Linux)
